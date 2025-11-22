@@ -1,0 +1,16 @@
+:root{
+  --bg:#0f1720; --card:#0b1220; --accent:#ff4d7a; --muted:#9fb0c4; --text:#e6eef6;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,Arial,Helvetica,sans-serif;margin:0;background:var(--bg);color:var(--text)}
+.app{max-width:1100px;margin:20px auto;padding:16px}
+.top{display:flex;align-items:center;justify-content:space-between}
+nav button{margin-left:8px;padding:8px 12px;border-radius:8px;border:none;background:transparent;color:var(--text);cursor:pointer}
+.accent{color:var(--accent)}
+.card{background:var(--card);padding:14px;border-radius:12px;margin:12px 0;box-shadow:0 6px 18px rgba(0,0,0,0.4)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.form label{display:block;margin-bottom:8px}
+input,select,textarea{width:100%;padding:8px;border-radius:8px;border:1px solid #203040;background:transparent;color:var(--text)}
+.btn{background:var(--accent);color:white;padding:10px 14px;border-radius:10px;border:none;cursor:pointer}
+.meta{color:var(--muted);font-size:0.9em}
+.actions button{margin-right:8px;padding:6px 10px;border-radius:8px;border:none;background:#203040;color:var(--text);cursor:pointer}
